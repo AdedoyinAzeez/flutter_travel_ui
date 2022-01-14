@@ -105,8 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             icon: CircleAvatar(
               radius: 15.0,
-              backgroundImage: AssetImage(
-                  '/Users/adedoyinazeez/Desktop/coding/flutter/travel_ui/assets/images/DigitalPhoto.jpg'),
+              backgroundImage: AssetImage('assets/images/DigitalPhoto.jpg'),
             ),
             title: SizedBox.shrink(),
           )

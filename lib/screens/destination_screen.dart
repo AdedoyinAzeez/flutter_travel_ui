@@ -4,7 +4,7 @@ import 'package:travel_ui/models/activity_model.dart';
 import 'package:travel_ui/models/destination_model.dart';
 
 class DestinationScreen extends StatefulWidget {
-  Destination destination;
+  final Destination destination;
 
   DestinationScreen({required this.destination});
 
